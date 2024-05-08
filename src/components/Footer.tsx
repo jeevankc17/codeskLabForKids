@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const Footer: FunctionComponent = () => {
   return (
-    <div className="self-stretch flex flex-col items-center justify-start z-[0] text-center text-13xl text-black1 font-body-tiny-600">
+    <div className="self-stretch flex flex-col items-center justify-start z-[0] text-center text-13xl text-black1 font-body-large-600">
       <img
         className="self-stretch relative max-w-full overflow-hidden h-[108px] shrink-0 object-cover"
         alt=""

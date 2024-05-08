@@ -58,7 +58,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
   }, [navigate]);
 
   const onMenuItem5Click = useCallback(() => {
-    navigate("/competetionpage");
+    navigate("/competetionspage");
   }, [navigate]);
 
   const onMenuItem6Click = useCallback(() => {

@@ -81,7 +81,7 @@ const CodewarTabs: FunctionComponent<CodewarTabsType> = ({
   }, [projectsTabBackgroundColor]);
 
   return (
-    <div className="self-stretch rounded-lg bg-aliceblue-100 flex flex-row flex-wrap items-start justify-center z-[4] text-center text-lg text-aqua-deep font-body-tiny-600">
+    <div className="self-stretch rounded-lg bg-aliceblue-100 flex flex-row flex-wrap items-start justify-center z-[4] text-center text-lg text-aqua-deep font-body-large-600">
       <button
         className="cursor-pointer py-[9px] px-5 bg-nero rounded box-border h-[45px] flex flex-row items-center justify-center border-[1px] border-solid border-aqua-deep"
         autoFocus={true}
@@ -89,7 +89,7 @@ const CodewarTabs: FunctionComponent<CodewarTabsType> = ({
         style={hackathonsTabStyle}
       >
         <div
-          className="relative text-lg leading-[150%] font-semibold font-body-tiny-600 text-aqua-deep text-center inline-block max-h-[58px]"
+          className="relative text-lg leading-[150%] font-semibold font-body-large-600 text-aqua-deep text-center inline-block max-h-[58px]"
           style={hackathonsTextStyle}
         >
           Hackathons
@@ -102,7 +102,7 @@ const CodewarTabs: FunctionComponent<CodewarTabsType> = ({
         style={projectsTabStyle}
       >
         <div
-          className="relative text-lg leading-[150%] font-semibold font-body-tiny-600 text-aqua-deep text-center inline-block max-h-[58px]"
+          className="relative text-lg leading-[150%] font-semibold font-body-large-600 text-aqua-deep text-center inline-block max-h-[58px]"
           style={projectsTextStyle}
         >
           Projects
@@ -115,7 +115,7 @@ const CodewarTabs: FunctionComponent<CodewarTabsType> = ({
         style={buildersTabStyle}
       >
         <div
-          className="relative text-lg leading-[150%] font-semibold font-body-tiny-600 text-aqua-deep text-center inline-block max-h-[58px]"
+          className="relative text-lg leading-[150%] font-semibold font-body-large-600 text-aqua-deep text-center inline-block max-h-[58px]"
           style={buildersTextStyle}
         >
           Builders
